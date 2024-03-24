@@ -171,6 +171,67 @@ header {
   margin-bottom: 44px;
 }
 
+.exposition {
+  padding-top: 96px;
+  background: rgb(18, 18, 20);
+}
+
+.exposition_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.right {
+  align-items: end;
+  text-align: right;
+}
+
+.exposition_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.exposition_column img {
+  width: 580px;
+  height: 385px;
+}
+.exposition_column h3 {
+  color: rgb(166, 168, 173);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.exposition_column h2 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+.exposition_column p {
+  max-width: 440px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 23px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
