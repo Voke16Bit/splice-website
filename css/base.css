@@ -317,6 +317,83 @@ header {
   margin-bottom: 57px;
 }
 
+footer {
+  background: rgb(18, 18, 20);
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
+
+.footer_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.footer_column h2 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer_column a {
+  color: rgb(166, 168, 173);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.footer_column a:hover {
+  color: white;
+}
+
+.footer_footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.footer_footer a {
+  color: rgb(166, 168, 173);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.footer_footer a:hover {
+  color: white;
+}
+.footer_footer p {
+  color: rgb(166, 168, 173);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
