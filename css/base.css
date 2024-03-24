@@ -134,7 +134,67 @@ header {
   letter-spacing: 0%;
 }
 
+.main {
+  background: rgb(18, 18, 20);
+}
+
+.main-container {
+  background-image: url(/img/main-background.png);
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 215px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
+.main-wrapper h1 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1.08px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.main-wrapper p {
+  max-width: 412px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 44px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  background: rgb(0, 51, 255);
+  padding: 16px 32px;
+  transition: 0.2s;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  transform: scale(1.1);
 }/*# sourceMappingURL=base.css.map */

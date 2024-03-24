@@ -1,0 +1,39 @@
+.main {
+  background: rgb(18, 18, 20);
+}
+.main-container {
+  background-image: url(/img/main-background.png);
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 215px;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+
+  & h1 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1.08px;
+    text-align: left;
+    margin-bottom: 26px;
+  }
+
+  & p {
+    max-width: 412px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 44px;
+  }
+
+}
+.btn {
+}
