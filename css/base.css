@@ -232,6 +232,64 @@ header {
   margin-bottom: 23px;
 }
 
+.creators {
+  padding: 120px 0;
+  background: rgb(18, 18, 20);
+}
+
+.container_creators {
+  padding: 0 48px;
+}
+
+.creators_title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.creators_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.creators_column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 360px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+}
+.creators_column img {
+  margin-bottom: 30px;
+}
+.creators_column p {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.creators_column h3 {
+  color: rgb(118, 118, 118);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
