@@ -25,6 +25,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
+    display: none;
   }
 }
 .header-nav_item {
@@ -97,4 +98,29 @@ header {
     line-height: 24px;
     letter-spacing: 0%;
   }
+}
+
+#burger, [for=burger] {
+  display: none;
+}
+
+#burger:checked + label +.header-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+[for=burger] {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 150px;
+  top: 0px;
+  transition: 0.2s;
+
+  &:hover {
+    transform: scaleX(1.2);
+  }
+  @media (max-width:800px) {
+    display: block;
+   }
 }
