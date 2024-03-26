@@ -3,8 +3,10 @@
   background: rgb(18, 18, 20);
 }
 
-.container_creators {
+.container_medium {
   padding: 0 48px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .creators_title {
@@ -16,13 +18,23 @@
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 24px;
+
+  @media (max-width:1000px) {
+    text-align: center;
+  }
 }
 .creators_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+
+  @media (max-width:1000px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 .creators_column {
+  margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;

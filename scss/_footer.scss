@@ -2,12 +2,23 @@ footer {
   background: rgb(18, 18, 20);
   padding-top: 48px;
   padding-bottom: 80px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .footer_flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  @media (max-width:800px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 10px;
+  }
+
+  @media (max-width:414px) {
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+  }
 }
 .footer_wrapper {
   display: flex;
@@ -51,6 +62,12 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 24px;
+
+  @media (max-width:414px) {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
 
   & a {
     color: rgb(166, 168, 173);
